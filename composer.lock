@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9a193aac43a30833e73cc68036b4bd",
+    "content-hash": "f6d4ffc3fbbec8d94fb7ef3541a3e6f9",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -1534,16 +1534,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.2.21",
+            "version": "6.2.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "a3273af312d032e317ad151a47d40691d796e5e5"
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/a3273af312d032e317ad151a47d40691d796e5e5",
-                "reference": "a3273af312d032e317ad151a47d40691d796e5e5",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ac6e92fccc7d9383dfd787056831349621b1aca2",
+                "reference": "ac6e92fccc7d9383dfd787056831349621b1aca2",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,10 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2018-09-14T13:49:09+00:00"
+            "support": {
+                "source": "https://github.com/tecnickcom/TCPDF/tree/master"
+            },
+            "time": "2018-09-14T15:26:29+00:00"
         }
     ],
     "packages-dev": [
@@ -3140,5 +3143,6 @@
         "ext-intl": "*",
         "ext-json": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
